@@ -4,7 +4,7 @@
 echo Running Script
 cd ~
 apt update && apt upgrade -y 
-pkg install python wget neovim htop fastfetch neofetch nodejs git zip -y
+pkg install python wget neovim htop fastfetch screenfetch neofetch openssh nodejs git zip curl libxml2-utils grep htop figlet httping dnsutils ffmpeg  -y
 termux-setup-storage
 
 #Oh my zsh
