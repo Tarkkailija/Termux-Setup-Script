@@ -32,13 +32,22 @@ cd termux-style
 # To install it, run -
 ./install
 # And follow the steps, it'll be installed on your system.
-echo run termux-style to atyle your termux terminal
+clear
+echo run termux-style to style your termux terminal
 
 #nerdfonts
-echo installing nerdfonts
-mkdir Nerdfonts
-cd Nerdfonts
-wget https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/3270/Regular/3270NerdFontMono-Regular.ttf
-~/.termux/3270NerdFontMono-Regular.ttf -y
+git clone https://github.com/notflawffles/termux-nerd-installer.git
+cd termux-nerd-installer
+make install
+#opens menu
+termux-nerd-installer l
+#installs font
+termux-nerd-installer i 3270
+#sets font
+termux-nerd-installer s 3270
+
+#final
 echo termux-reload-settings
+clear
+neofetch --ascii_distro Arch
   
