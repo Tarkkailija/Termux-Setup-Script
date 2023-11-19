@@ -39,6 +39,6 @@ echo installing nerdfonts
 mkdir Nerdfonts
 cd Nerdfonts
 wget https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/3270/Regular/3270NerdFontMono-Regular.ttf
-~/.termux/3270NerdFontMono-Regular.ttf
+~/.termux/3270NerdFontMono-Regular.ttf -y
 echo termux-reload-settings
   
