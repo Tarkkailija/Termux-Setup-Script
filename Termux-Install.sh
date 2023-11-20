@@ -50,4 +50,5 @@ termux-nerd-installer s 3270
 echo termux-reload-settings
 clear
 neofetch --ascii_distro Arch
+echo Restart to activate features
   
