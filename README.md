@@ -3,7 +3,7 @@ This Repo is for testing purposes only
 
 ## How to install
 Clone the repository
-```git clone https://github.com/Tarkkailija/Termux-Setup-Script.git``` or ```wget https://github.com/Tarkkailija/Termux-Setup-Script.git```
+```git clone https://github.com/Tarkkailija/Termux-Setup-Script.git```
 
 
 Change directory to the cloned repository
