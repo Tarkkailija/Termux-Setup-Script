@@ -4,8 +4,9 @@
 echo Running Script
 cd ~
 apt update && apt upgrade -y 
-pkg install python wget neovim htop fastfetch screenfetch neofetch openssh nodejs git zip curl libxml2-utils grep htop httping dnsutils ffmpeg nnn lua-language-server clang ripgrep fd -y
+pkg install python wget neovim htop fastfetch screenfetch neofetch openssh nodejs git zip curl libxml2-utils grep htop httping dnsutils ffmpeg nnn lua-language-server clang ripgrep fd ecj dx -y
 termux-setup-storage
+#following are for nvim: python git neovim openssh nodejs or "nodejs-lts" libxm12-utils grep lua-language-server clang ripgrep fd, ecj and dx for java
 
 #Oh my zsh
 # First, clone this repository by typing...
