@@ -55,3 +55,5 @@ echo input "exit" and reopen to restart the program
 echo "paste 
 neofetch --ascii_distro Arch
 echo input exit and reopen to restart the program and  paste in the CL " git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim " to install neovim setup
+termux-setup-storage
+termux-reload-settings
