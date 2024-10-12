@@ -30,9 +30,9 @@ The program makes use of the following repositories and is and will be for perso
 
 ## To add soon
 <center>
-<p>Nvim Setup for general development:Web(Html, Css, Javascript), Java, Python, Bash, C and C++</p>
-<p>Nethunter rootless</p>
+<p>Nvim Setup for general development:Web(Html, Css, Javascript), Java, Python, Bash</p>
 <p>tmux and having multiple sessions in 1 screen(Tiling WM like)</p>
+<p>RVNC Viewer so you could use it like a Desktop would
 <p>Delete files that are of no use(Screenshot files from the github clone)</p>
 </center>
 
